@@ -2,6 +2,7 @@ name: django-tdd
 
 services:
   app:
+    container_name: django-tdd-app
     build:
       context: .
       args:

@@ -36,3 +36,5 @@ ruff.toml
 # OS specific
 .DS_Store
 Thumbs.db
+
+.ruff_cache/*
