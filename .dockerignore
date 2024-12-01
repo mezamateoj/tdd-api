@@ -1,0 +1,38 @@
+# Version control
+.git
+.gitignore
+.gitattributes
+
+# Python
+**/__pycache__
+**/*.pyc
+**/*.pyo
+**/*.pyd
+**/.Python
+**/*.py[cod]
+**/*$py.class
+**/.env
+**/.venv
+**/env/
+**/venv/
+**/.pytest_cache/
+
+# Project specific
+infra/
+.db/
+.ruff_cache/
+**/*.sqlite3
+**/mediafiles/
+**/staticfiles/
+ruff.toml
+.docker
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific
+.DS_Store
+Thumbs.db
