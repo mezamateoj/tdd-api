@@ -11,3 +11,12 @@ ruff check --watch          # Lint all files in the current directory, and re-li
 ruff check path/to/code/    # Lint all files in `path/to/code` (and any subdirectories).
 
 ```
+
+# Test
+
+Run the test from the docker container
+
+```bash
+docker compose run --rm app sh -c "python manage.py test"
+
+```
